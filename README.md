@@ -17,10 +17,10 @@ You should create one R script called run_analysis.R that does the following.
 4 Appropriately labels the data set with descriptive variable names. 
 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-#We have done all that in run_analysis.R script.
+##We have done all that in run_analysis.R script.
 This file 'run_analysis.R' contains all the code.
 
-##About this R script
+###About this R script
 It contains code to perform all 5 steps
 We will also look at substeps of these steps
 1. Merging the training and the test sets to create one data set.
