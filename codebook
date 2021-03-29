@@ -1,0 +1,4 @@
+#Getting and Cleaning Data project
+#About variables:
+1. x_test,y_test,x_train,y_train,subject_test and subject_train containing data from file we downloaded.
+2. X,Y,Subject and Merged_Data merges the data
