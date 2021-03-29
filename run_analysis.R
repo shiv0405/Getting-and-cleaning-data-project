@@ -62,3 +62,5 @@ FinalData <- TidyData %>%
 write.table(FinalData, "FinalData.txt", row.name=FALSE)
 str(FinalData)
 
+#looking at it
+FinalData
