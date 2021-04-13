@@ -76,10 +76,10 @@ SetActivity <- merge(Set, activityLabels)
 
 
 #step 5 From the data set in step 4,create a second,independent tidy data set with the average of each variable for each activity and each subject.
-TidyData <- aggregate(. ~subjectId + activityId, SetActivity, mean)
-TidyData <- TidyData[order(TidyData$subjectId, TidyData$activityId),]
-write.table(TidyData, "TidyData.txt", row.name=FALSE)
-str(TidyData)
+TidyData1 <- aggregate(. ~subjectId + activityId, SetActivity, mean)
+TidyData1 <- TidyData1[order(TidyData1$subjectId, TidyData1$activityId),]
+write.table(TidyData1, "TidyData1.txt", row.name=FALSE)
+str(TidyData1)
 
 #looking at it
-TidyData
+TidyData1
