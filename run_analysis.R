@@ -98,10 +98,10 @@ extr_data <- data.frame(extr_data)
 
 #create tidydata
 
-tidyData <- aggregate(. ~Subject + Activity, extr_data, mean)
-tidyData <- tidyData[order(tidyData$Subject,tidyData$Activity),]
-write.table(tidyData, file="Tidy.txt", row.names = FALSE)
+tidyData1 <- aggregate(. ~Subject + Activity, extr_data, mean)
+tidyData1 <- tidyData1[order(tidyData$Subject,tidyData$Activity),]
+write.table(tidyData1, file="Tidy.txt", row.names = FALSE)
 
 #looking at it
 
-tidyData
+tidyData1
