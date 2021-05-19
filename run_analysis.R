@@ -1,5 +1,6 @@
 #loading packages
 library(dplyr)
+library(data.table)
 
 filename <- "Coursera_Final.zip"
 
@@ -42,7 +43,7 @@ colnames(x_test) <- features[,2]
 colnames(y_test) <- "activityId"
 colnames(subject_test) <- "subjectId"
 
-colnames(activityLabels) <- c('activityId', 'activityType)
+colnames(activityLabels) <- c('activityId', 'activityType')
 
 #step 1 Merges the training and the test data sets to create one data set.
  
